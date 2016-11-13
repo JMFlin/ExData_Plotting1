@@ -20,6 +20,4 @@ lines(a, sub2, type="l", col="red")
 lines(a, sub3, type="l", col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lwd = 2,col=c("black", "red", "blue"), bty="o")
 plot(a, globalPower, type="l", xlab="datetime", ylab="Global_reactive_power")
-dev.off()
 
-?plot
