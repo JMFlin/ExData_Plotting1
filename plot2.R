@@ -6,5 +6,4 @@ global <- as.numeric(my_subset$Global_active_power)
 
 png("plot2.png", width=480, height=480)
 plot(a, global, type="l", xlab="", ylab="Global Active Power (kilowatts)")
-dev.off()
 
